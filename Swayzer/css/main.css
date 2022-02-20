@@ -1,0 +1,153 @@
+/*обращение ко всем элементам через *   */
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color:white;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 15px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 1.55em;
+}
+/*    здесь обьекты пишутся с точки вначале*/
+/*ctrl+/ дает рамки для коммента*/
+    .container {
+    width: 1100px;
+    margin: 0px auto;
+
+
+}
+
+.header{
+    padding-top: 72px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 98px;
+
+}
+/*padding дает отступ по сторонам. можно по часовой стрелке 4 значения*/
+
+.title{
+    font-size: 25px;
+    letter-spacing: 0.07em;
+    line-height: 2.5em;
+}
+
+.title2{
+    font-size: 22px;
+    letter-spacing: 0.07em;
+    line-height: 1.5em;
+}
+
+h1{
+    margin-bottom: 98px;
+}
+.nav{
+    display: flex;
+    /*    ставит обьекты в одну строку*/
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+/*ссылки нужно отдельно указывать по цвету*/
+/*убрать подчеркивание можно через tdn*/
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.more {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*в css то, что записано ниже, перечеркивает все сверху*/
+
+.info {
+    margin-bottom: 52px;
+    margin-top: 52px;
+}
+
+.place{
+    font-size: 18px;
+}
+
+.info-title{
+    font-size: 30px;
+}
+
+.desk{
+    font-size: 20px;
+    margin-bottom: 21px;
+}
+
+.btn{
+    font-size: 18px;
+    color:white;
+    background: #9f231b;
+    padding: 16px 22px;
+    font-weight: 700;
+/*    эти строки делают бэкграунд частью кнопки и органичивают его*/
+    display: block;
+    width: 192px;
+    text-align: center;
+}
+
+/*этот селектор hover дает изменения при наводке. тут разный цвет*/
+.btn:hover {
+    background: #89211e;
+}
+
+/*active дает при нажатии другой цвет*/
+.btn:active{
+    background: #652313;
+}
+
+.thoughts{
+    color: black;
+    background: #b7bef8;
+    padding: 30px 30px;
+    font-size: 16px;
+    width: 441px;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 17px;
+    line-height: 1.47;
+    margin: 1.47rem 0;
+}
+
+.table{
+    color:black;
+    background: #bb8180;
+    display: block;
+    width: 350px;
+    padding: 15px 15px;
+    font-size: 18px;
+    margin-bottom: 98px;
+}
+
+.poster{
+width: 500px;
+}
+
+#footer{
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 1.55em;
+}
+
+

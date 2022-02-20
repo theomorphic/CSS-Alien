@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Lakki Reddy
+- Font Author: Copyright (c) 2011 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2010 by Font Diner, Inc DBA Sideshow.
+- Font Source: http://fonts.gstatic.com/s/lakkireddy/v9/S6u5w49MUSzD9jlCPmvLZQfox9k97-xZ.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

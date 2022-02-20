@@ -1,0 +1,78 @@
+a{
+    text-decoration:none;
+    color:#fff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #007654;
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* эта штука делит кнопки по горизонтали */
+.header_section{
+    display: flex;
+    align-items: center;
+}
+    /* всякие отступы и размеры кнопок */
+.header_item{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+/* Эта штука задает цвет при наведении */
+.header_item:hover{
+    border-radius: 4px;
+    background-color: #231f20;
+}
+.headerlogo{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 25px;
+    
+}
+.headerButton{
+    cursor: pointer;
+}
+.contant-wrapper{
+    font-size: 20px;
+    text-align: justify;
+    /* вот эти штуки центрируют */
+    max-width: 760px;
+    margin: auto;
+    padding: 0 30px;
+    display: block;  
+}
+.footer{
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 0.03em;
+    line-height: 1.55em;
+    text-align: center;
+}
+h1{
+    color: #000;
+    line-height: 1.1;
+    font-size: 48px;
+    margin: 1rem 0;
+}
+p{
+    line-height: 1.47;
+    margin: 1.47rem 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/* тут картинка в диве и в абзаце, чтобы точно */
+.alien-img{
+    text-align: center;
+}
+h2{
+    font-size: 36px;
+    color: #000;
+    line-height: 1.1;
+    margin: 1rem 0;
+}
